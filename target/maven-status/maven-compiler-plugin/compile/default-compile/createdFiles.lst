@@ -1,0 +1,5 @@
+com\record\service\impl\UserServiceImpl.class
+com\record\service\IUserService.class
+com\record\dao\IUserDao.class
+com\record\model\User.class
+com\record\controller\UserController.class
