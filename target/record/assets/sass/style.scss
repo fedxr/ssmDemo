@@ -1,0 +1,168 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.float-right {
+    float: right;
+}
+
+button {
+    margin: 0 10px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #373d41;
+    color: #fff;
+}
+
+h2 {
+    padding: 10px 30px;
+}
+
+.inline-t {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container {
+    margin: 72px 200px;
+}
+
+//左侧按钮
+.list-btn {
+    position: fixed;
+    top: 72px;
+    left: 120px;
+    font-size: 16px;
+    li {
+        padding: 8px 20px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        cursor: pointer;
+        &:hover {
+            background-color: #ccc;
+        }
+    }
+    .ac {
+        background-color: #ccc;
+    }
+}
+
+//右侧内容
+.cat-pad {
+    width: 1000px;
+    min-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px 0;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px #888888;
+    font-size: 14px;
+    .work-note {
+        width: 900px;
+        margin: 10px auto 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .info {
+        width: 100px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .note {
+        width: 780px;
+    }
+    //注册登录框
+    .form-wrapper {
+        height: 140px;
+        overflow: hidden;
+    }
+    .sign-up {
+        width: 400px;
+        margin: 30px auto;
+        .label {
+            display: block;
+            width: 90%;
+            height: 55px;
+            input {
+                width: 77%;
+                margin-left: 5%;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        }
+        input[type="submit"] {
+            width: 60px;
+            height: 30px;
+            border-radius: 5px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    }
+    .new-note{
+        display: none;
+        .note{
+            width:100%;
+        }
+        .work-note{
+            display: none;
+        }
+    }
+    .btn-wrapper{
+        text-align:right;
+        width:92%;
+        margin:auto;
+        a{
+            font-size: 16px;
+            border-radius: 3px;
+            padding:5px 10px;
+            margin-right:10px;
+            color:#000;
+            background-color: #ccc;
+        }
+    }
+}
+
+textarea{
+    resize:none;
+    width:80%;
+    height: 70px;
+    padding:10px;
+}
+
+#name {
+    height: 0;
+}
+
+.border-dashed {
+    border-bottom: 1px dashed #ccc;
+}
+
+hr {
+    border: 1px dashed #ccc;
+    margin: 5px 0;
+}
+
+.transition {
+    transition: all .2s ease-in-out;
+}
+
+.text-c {
+    text-align: center;
+}
+
+label.error {
+    display: block;
+    text-align: right;
+    color: #f36666;
+}
+
+#submit, #cancel{
+    display: none;
+}
